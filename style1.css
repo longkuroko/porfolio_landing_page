@@ -42,7 +42,7 @@ html{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    /*  */
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -251,7 +251,7 @@ section .title::after{
 .services .title::after{
 
     background: #111;
-    content: "What i provide";
+    content: "";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -290,7 +290,7 @@ section .title::after{
 /* skill section start styling  */
 
 .skills .title::after{
-    content: "what i know";
+    content: "";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -367,8 +367,7 @@ section .title::after{
 
 /* contact styling section */
 .contact .title::after{
-
-    content:"get in touch";
+    content:"";
 
 }
 
