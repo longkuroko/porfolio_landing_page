@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 *{
     margin:0;
     padding: 0;
@@ -13,13 +15,19 @@ html{
     margin: auto;
 }
 
+/* theme changes  */
+
+/* end theme changes   */
+
 /* navbar styling */
 .navbar{
     position: fixed;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family:  'Oswald', sans-serif;
+    
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -54,19 +62,33 @@ html{
 }
 .navbar .menu li a{
     display: block;
+    font-family:  'Oswald', sans-serif;
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover{
-    color: crimson;
+    color:#FF1EAD;
+    opacity: 1;
+    transition:0.5 ease 0.8s;
+}
+.navbar .menu li a::before{
+    position: absolute;
+    bottom: -2px;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:#FF1EAD;
+    transform: translateX(-100%);
+    opacity: 0;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
+    
 }
 
 /* menu btn styling */
@@ -105,10 +127,12 @@ html{
     display: flex;
     /* background: linear-gradient(to right top, #65dfc9, #6cdbed); */
     height: 100vh;
-    background:#2a9cbe;
+    background:#000;
     color: #fff;
     min-height: 500px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family:  'Oswald', sans-serif;
+
 
 }
 .home .max-width{
@@ -153,7 +177,9 @@ section{
 
 }
 .about, .services, .skills, .contact, footer{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family:  'Oswald', sans-serif;
+
 }
 .about .about-content,.services .serv-content, .skills .skills-content,
  .contact .contact-content {
@@ -169,7 +195,9 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family:  'Oswald', sans-serif;
+
 }
 section .title::before{
     content: "";
@@ -195,7 +223,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "Who i am";
+    content: "";
 }
 
 .about .about-content .left{
@@ -216,10 +244,12 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    font-size: 20px;
+    color: #FF1EAD;
 }
 .about .about-content .right p{
     text-align: justify;
+    font-size:20px;
 }
 .about .about-content .right a{
     text-decoration: none;
@@ -303,6 +333,7 @@ section .title::after{
 .skills .skills-content .left p{
 
     text-align: justify;
+    font-size:20px;
 
 }
 .skills .skills-content .left a{
@@ -375,6 +406,7 @@ section .title::after{
     width: calc(50% -30px);
 }
 .contact .contact-content  .text{
+    
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;

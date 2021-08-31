@@ -7,6 +7,9 @@
     <title>Nguyen Thanh Long</title>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./style1.css" />
+    <link rel="stylesheet" href="./themechanges.scss" />
+    <link rel="stylesheet" href="./mode.scss" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -42,7 +45,11 @@
           <li><a href="#services" class="menu-btn">Services</a></li>
           <li><a href="#skills" class="menu-btn">Skill</a></li>
           <li><a href="#contact" class="menu-btn">Contact</a></li>
+          <!-- <li class="theme-switch"><div class="switch"></div></li> -->
         </ul>
+
+        <!-- mode changes light and dark -->
+      
         <div class="menu-btn">
           <i class="fas fa-bars"></i>
         </div>
@@ -56,8 +63,8 @@
           <div class="text-1">Hello, my name is</div>
           <div class="text-2">Nguyen Thanh Long</div>
           <div class="text-3">And I'm a <span class="typing"></span></div>
-         
-          <a href="/images/NGUYEN-THANH-LONG-TopCV.vn-300821.203246.pdf" download>Download my CV</a>
+
+          <a href="images/cv.pdf" download="long.pdf">Download my CV</a>
         </div>
       </div>
     </section>
@@ -75,20 +82,11 @@
               I'm Long and I'm a <span class="typing-2"> </span>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              expedita id itaque suscipit explicabo cum velit nostrum mollitia
-              placeat necessitatibus nemo delectus harum odit, error reiciendis,
-              voluptatibus quisquam fugiat! Et id modi ab vitae similique sit
-              quis consequuntur quae odit libero quas officia aut tempora
-              consectetur maiores error ratione commodi nobis atque ipsam, quos
-              rem placeat. Explicabo laboriosam ratione impedit error mollitia
-              sunt fugiat, eveniet est voluptatibus temporibus cupiditate qui
-              dicta consequatur tempore numquam quasi vero? Ullam enim, vitae id
-              consectetur excepturi quisquam neque itaque eius odio recusandae
-              quasi provident distinctio. Quis magnam quia corporis ratione,
-              quibusdam fuga facilis aspernatur.
+              Hello you guys who is visiting my porfolio website. i'm longnguyen and i'm a web developer.
+To be honest,i'm pretty sure that i'm love developing a website but i was not spent much times to learn about the UI soon, that's why you guys look my website is kind of bad  rightnow. However, i'm spent a lot of time to learn about the server side of the website. That's why i decided to be a backend developer first. I've learnt how to develop a server, database and it's own structure. 
+I'm still a student by the way and i'm looking for an internship or fresher position. I will provide you the best service of me. That's it, now let jump into the next section of website.
             </p>
-            <a href="#">Download CV</a>
+            <a href="images/cv.pdf" download="long.pdf">Download my CV</a>
           </div>
         </div>
       </div>
@@ -142,15 +140,9 @@
         <h2 class="title">My skills</h2>
         <div class="skills-content">
           <div class="column left">
-            <div class="text">My creative skills & experiences.</div>
+            <div class="text">My skills & experiences.</div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              ea, quo voluptates nobis autem, facere esse reiciendis beatae
-              voluptatem voluptatum ut, nisi doloremque ipsum enim quidem ex
-              modi asperiores magnam accusamus fuga libero! Rerum magni
-              praesentium quidem assumenda vel cupiditate exercitationem soluta
-              iste ab delectus iure voluptates dolor dolorum, beatae quo ipsam
-              magnam a velit recusandae sed minima consectetur expedita.
+              As you can see, I am a backend developer. That's why I'm a bit inclined backend languages. I've known java, c#, a bit ruby. I've learnt some frameworks such as springboot in java, .NET in c# and Rails. Now i am self-taught nodejs. I also know about the database and some database management system such as Sql Server, MySQL, Postgresql and I know frontend basic like HTML, CSS, Javascript, Boostrap.
             </p>
             <a href="#">Read more</a>
           </div>
@@ -202,32 +194,36 @@
 
         <div class="contact-content">
           <div class="column left">
-            <div class="text">Get in touch</div>
+            <div class="text" style="margin-top: -114px;">Get in touch</div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              voluptas amet facilis laudantium nesciunt quas distinctio, quasi
-              ducimus quod nobis?
+              I put my information below
+            </br>
+              you guys can contact me if you need.
             </p>
             <div class="icons">
               <div class="row">
-                <i class="fas fa-user"></i>
+                <a href="http://facebook.com/nguyenthanhlong.nguyen.378" target="_blank">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
                 <div class="info">
-                  <div class="head">Name</div>
-                  <div class="sub-title">Nguyen Thanh Long</div>
+                  <!-- <div class="head">FACEBOOK</div> -->
+                  <div class="sub-title">LONG NGUYEN</div>
                 </div>
               </div>
               <div class="row">
-                <i class="fas fa-map-marker-alt"></i>
+                <a href="http://github.com/longkuroko" target="_blank">
+                  <i class="fab fa-github-square"></i>
+                </a>
                 <div class="info">
-                  <div class="head">Address</div>
-                  <div class="sub-title">HCM, Vietnam</div>
+                  <div class="sub-title">LONGKUROKO</div>
                 </div>
               </div>
               <div class="row">
-                <i class="fas fa-envelope"></i>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSBptRFdVHMPQrWjVCGxwpqpKVKpZPNsGccbFVPLtFBCwlDnSvWWDJjXtLzDrgGXPzzxBRJB" target="_blank">
+                  <i class="fas fa-envelope"></i>
+                </a>
                 <div class="info">
-                  <div class="head">Email</div>
-                  <div class="sub-title">onlylongxoan@gmail.com</div>
+                  <div class="sub-title">ONLYLONGXOAN@GMAIL.COM</div>
                 </div>
               </div>
             </div>
@@ -243,9 +239,9 @@
                   <input type="email" placeholder="Email" required />
                 </div>
               </div>
-              <div class="field">
+              <!-- <div class="field">
                 <input type="text" placeholder="Subject" required />
-              </div>
+              </div> -->
               <div class="field textarea">
                 <textarea
                   cols="30"
@@ -269,6 +265,8 @@
         <span class="far fa-copyright">2021</span>
       </span>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="./app.js"></script>
   </body>

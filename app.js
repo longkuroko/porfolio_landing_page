@@ -23,14 +23,14 @@ $(document).ready(function(){
 
     // typing animation 
     var typed = new Typed(".typing", {
-        strings:["Backend Developer","Web Developer"],
-        typeSpped : 100, 
-        backSpeed:60, 
+        strings:["Backend Developer","Web Developer","Student"],
+        typeSpped : 50, 
+        backSpeed:100, 
         loop:true
     });
 
     var typed = new Typed(".typing-2", {
-        strings:["Backend Developer","Web Developer"],
+        strings:["Backend Developer","Web Developer","Student"],
         typeSpped : 100, 
         backSpeed:60, 
         loop:true
@@ -43,4 +43,5 @@ $(document).ready(function(){
     })
 })
 
-//js dowload cv
+//js change theme
+
