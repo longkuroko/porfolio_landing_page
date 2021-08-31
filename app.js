@@ -42,3 +42,5 @@ $(document).ready(function(){
 
     })
 })
+
+//js dowload cv
