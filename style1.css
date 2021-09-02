@@ -440,7 +440,12 @@ section .title::after{
     color:#333;
 
 }
-
+.contact a{
+    color:#111
+}
+.contact a:hover{
+    color:#2a9cbe;
+}
 .contact .right form .fields{
     display: flex;
 }
